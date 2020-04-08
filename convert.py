@@ -32,7 +32,7 @@ def main():
         variable_count = len(variables)
 
         # remove trailing newlines
-        for i in (0, variable_count-1):
+        for i in range(0, variable_count-1):
             variables[i] = variables[i].rstrip()
 
         idx = 0

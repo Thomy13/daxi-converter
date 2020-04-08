@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc15ce7-fca8-486c-b687-d22093545b2d" name="Default Changelist" comment="" />
+    <list default="true" id="8dc15ce7-fca8-486c-b687-d22093545b2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/20200408_FaultInput.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegmentInput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,19 +20,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZUnGXfTqwQYtVFP5QIPufpss4j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/convert.py" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.Run rlzMean">
+  <component name="RunManager" selected="Python.SegmentInput">
     <configuration name="Run Converter" type="PythonConfigurationType" factoryName="Python">
       <module name="daxi-converter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,9 +82,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SegmentInput" type="PythonConfigurationType" factoryName="Python">
+      <module name="daxi-converter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="T:\Users\Thomy\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SegmentInput.py" />
+      <option name="PARAMETERS" value="20200408_FaultInput.csv output.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Run Converter" />
       <item itemvalue="Python.Run rlzMean" />
+      <item itemvalue="Python.SegmentInput" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -90,36 +125,39 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-3288" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586097812705">
-      <screen x="-3840" y="-13" width="2194" height="1194" />
+    <state x="552" y="252" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586359704024">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="-3288" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586097812705" />
-    <state x="552" y="252" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584906992951" />
+    <state x="552" y="252" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1586359704024" />
     <state x="877" y="352" key="FileChooserDialogImpl" timestamp="1584906028201">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="877" y="352" key="FileChooserDialogImpl/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584906028201" />
-    <state width="2173" height="333" key="GridCell.Tab.0.bottom" timestamp="1586190385153">
-      <screen x="-3840" y="-13" width="2194" height="1194" />
+    <state width="2173" height="333" key="GridCell.Tab.0.bottom" timestamp="1586360000186">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="333" key="GridCell.Tab.0.bottom/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586190385153" />
-    <state width="2173" height="333" key="GridCell.Tab.0.bottom/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584907642277" />
-    <state width="2173" height="333" key="GridCell.Tab.0.center" timestamp="1586190385153">
-      <screen x="-3840" y="-13" width="2194" height="1194" />
+    <state width="2173" height="333" key="GridCell.Tab.0.bottom/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586195018128" />
+    <state width="2173" height="333" key="GridCell.Tab.0.bottom/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1586360000186" />
+    <state width="2173" height="333" key="GridCell.Tab.0.center" timestamp="1586360000186">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="333" key="GridCell.Tab.0.center/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586190385153" />
-    <state width="2173" height="333" key="GridCell.Tab.0.center/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584907642277" />
-    <state width="2173" height="333" key="GridCell.Tab.0.left" timestamp="1586190385153">
-      <screen x="-3840" y="-13" width="2194" height="1194" />
+    <state width="2173" height="333" key="GridCell.Tab.0.center/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586195018128" />
+    <state width="2173" height="333" key="GridCell.Tab.0.center/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1586360000186" />
+    <state width="2173" height="333" key="GridCell.Tab.0.left" timestamp="1586360000186">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="333" key="GridCell.Tab.0.left/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586190385153" />
-    <state width="2173" height="333" key="GridCell.Tab.0.left/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584907642277" />
-    <state width="2173" height="333" key="GridCell.Tab.0.right" timestamp="1586190385153">
-      <screen x="-3840" y="-13" width="2194" height="1194" />
+    <state width="2173" height="333" key="GridCell.Tab.0.left/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586195018127" />
+    <state width="2173" height="333" key="GridCell.Tab.0.left/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1586360000186" />
+    <state width="2173" height="333" key="GridCell.Tab.0.right" timestamp="1586360000186">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="333" key="GridCell.Tab.0.right/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586190385153" />
-    <state width="2173" height="333" key="GridCell.Tab.0.right/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1584907642277" />
+    <state width="2173" height="333" key="GridCell.Tab.0.right/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@-3840.-13.2194.1194" timestamp="1586195018128" />
+    <state width="2173" height="333" key="GridCell.Tab.0.right/3840.481.1920.1010/-3840.-13.2194.1194/0.0.2194.1194@0.0.2194.1194" timestamp="1586360000186" />
     <state width="2173" height="409" key="GridCell.Tab.1.bottom" timestamp="1586099974371">
       <screen x="-3840" y="-13" width="2194" height="1194" />
     </state>
